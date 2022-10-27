@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
         ],
         child: MaterialApp(
           title: 'Xerocasa',
-          // initialRoute: '/',
-          initialRoute: '/byPassMain',
+          initialRoute: '/',
+          // initialRoute: '/byPassMain',
           routes: {
             '/': (context) => HomePage(),
             '/selectDevice': (context) => const SelecionarDispositivoPage(),
